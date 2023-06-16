@@ -1,0 +1,242 @@
+BODY {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+A {
+	COLOR: #3a5ea3; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4677d3; TEXT-DECORATION: underline
+}
+BODY {
+	MARGIN-TOP: 0px; BACKGROUND: #f0eee4; MARGIN-BOTTOM: 0px
+}
+#whitebackground {
+	BACKGROUND: url(../images/slabslai_stud_bg_top.jpg) #fff no-repeat left top; MARGIN: 0px auto; WIDTH: 900px
+}
+#container {
+	MARGIN: 0px auto; WIDTH: 872px
+}
+#separator {
+	DISPLAY: none
+}
+#content {
+	PADDING-LEFT: 20px; FONT-SIZE: 11px; BACKGROUND: url(../images/slabslai_stud_bg.png) repeat-x left top; FLOAT: left; MARGIN: 0px; WIDTH: 650px
+}
+#maincontent {
+	WIDTH: 872px; TEXT-ALIGN: left
+}
+.breadcrumb {
+	FONT-SIZE: 10px; COLOR: #333; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.navi A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navi A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.navi2 A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navi2 A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.navibottom A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navibottom A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.latestnews {
+	BACKGROUND: url(../images/slabslai_stud_news_bg.gif) repeat-x left top
+}
+#header {
+	WIDTH: 872px; HEIGHT: 120px
+}
+#menu {
+	WIDTH: 872px
+}
+.logo {
+	FLOAT: left; WIDTH: 300px
+}
+.navi {
+	FONT-SIZE: 10px; FLOAT: right; WIDTH: 572px; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.navi2 {
+	FONT-SIZE: 10px; FLOAT: left; WIDTH: 382px; COLOR: #fff; PADDING-TOP: 8px; FONT-FAMILY: Tahoma
+}
+.search {
+	FONT-SIZE: 10px; FLOAT: right; WIDTH: 190px; COLOR: #ff0000; PADDING-TOP: 8px; FONT-FAMILY: Tahoma
+}
+.error {
+	FONT-SIZE: 10px; COLOR: #ff0000
+}
+#leftmenu {
+	CLEAR: both; BACKGROUND: url(../images/slabslai_stud_left_bg.jpg) no-repeat; FLOAT: left; MARGIN: 0px; WIDTH: 202px; HEIGHT: 600px
+}
+#footer {
+	MARGIN: 0px auto; WIDTH: 900px; HEIGHT: 35px; BACKGROUND-COLOR: #666
+}
+.navibottom {
+	PADDING-LEFT: 14px; FONT-SIZE: 10px; FLOAT: left; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.copyright {
+	PADDING-RIGHT: 14px; FONT-SIZE: 10px; FLOAT: right; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.bluefaq {
+	FONT-SIZE: 11px; COLOR: #307ddd; FONT-FAMILY: Tahoma
+}
+.textsmall {
+	FONT-SIZE: 10px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: Tahoma
+}
+.textfacilities {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma
+}
+.textgallery {
+	FONT-SIZE: 10px; COLOR: #aeaeae; FONT-FAMILY: Arial
+}
+.gallerytitle {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial
+}
+.formstyle {
+	PADDING-LEFT: 2px; FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+.whattodotitle {
+	FONT-SIZE: 11px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+A.umiquesection {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0452d3; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.title {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma
+}
+.bluetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #4167b0; FONT-FAMILY: Tahoma
+}
+.whitetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.whitetext {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.bluetext {
+	FONT-SIZE: 11px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+.missiontitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Tahoma
+}
+.imgdescription {
+	FONT-SIZE: 10px; COLOR: #999999; FONT-FAMILY: Tahoma
+}
+A.textsmall {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.textsmall2 {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.textsmall2:hover {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.breadcrumb {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+A.breadcrumb:hover {
+	COLOR: #333333
+}
+visited {
+	COLOR: #333333
+}
+active {
+	COLOR: #333333
+}
+A.titlenews {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003a9b; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.titlenews:hover {
+	COLOR: #666666
+}
+A.listprog {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.listprog:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A.listprogtitle {
+	FONT-SIZE: 11px; COLOR: #4167b0; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.listprogtitle:hover {
+	COLOR: #4167b0; TEXT-DECORATION: underline
+}
+.sel {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+UL {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; LIST-STYLE-TYPE: none
+}
+LI {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; LIST-STYLE-TYPE: none
+}
+H3 {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; LIST-STYLE-TYPE: none
+}
+H3 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 12px; BACKGROUND: #cccccc; PADDING-BOTTOM: 4px; COLOR: #999999; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 2px solid
+}
+#main {
+	MARGIN: 10px auto; WIDTH: 180px
+}
+#accordion LI {
+	BORDER-BOTTOM: #dedede 1px solid
+}
+#accordion LI A {
+	PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+#accordion LI A:hover {
+	BACKGROUND: #efefef
+}
+.floatright {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 1px; BORDER-TOP: medium none; PADDING-LEFT: 1px; FLOAT: right; PADDING-BOTTOM: 1px; MARGIN: 0px 0px 5px 5px; BORDER-LEFT: medium none; PADDING-TOP: 1px; BORDER-BOTTOM: medium none
+}
+.dashed {
+	BORDER-RIGHT: #666666 0px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #666666 1px dashed; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #666666 0px dashed; LINE-HEIGHT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #666666 0px dashed; HEIGHT: 0px
+}
+.toggleopacity IMG {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=70); -moz-opacity: 0.7
+}
+.toggleopacity:hover IMG {
+	FILTER: progid:DXImageTransform.Microsoft.Alpha(opacity=100); -moz-opacity: 1
+}
+.toggleopacity IMG {
+	BORDER-RIGHT: #ccc 0px solid; BORDER-TOP: #ccc 0px solid; BORDER-LEFT: #ccc 0px solid; BORDER-BOTTOM: #ccc 0px solid
+}
+.gambarpaper {
+	background:url(../images/slabslai_stud_umnews01.jpg); text-align:left;
+	border: 1px #999999 solid;
+}
+/*drop down list*/
+#ddl {
+/*font-family:Arial;
+font-size:90%;
+font-weight:bold;*/
+font:11px arial;
+}
+
+input.btn {
+background-color:#FFFFFF;
+border-color:#CCCCCC #666666 #666666 #CCCCCC;
+border-style:solid;
+border-width:1px;
+color:#333333;
+font-weight:bold;
+height:22px;
+width:80px;
+font:bold 11px tahoma;
+}

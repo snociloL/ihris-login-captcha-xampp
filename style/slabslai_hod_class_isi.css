@@ -1,0 +1,266 @@
+body {
+	background-color: #F7F2F3;
+}
+table.banner {
+        border : 1px;
+	border-top:1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-right: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-color: #000000;
+        border-collapse: collapse;
+        background-color: #006699;
+}
+table.banner td {
+        border : 1px;
+        padding: 1px;
+        border-style: inset;
+        border-color: #000000;
+		border-collapse: collapse;
+	border-right: 1px solid #000000;
+        border-top: 1px solid #000000;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+        background-color: gray
+        -moz-border-radius: ;
+        FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	COLOR: #FFF8DC;
+	FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+}
+table.output {
+	border : 1px;
+	border-color:#333333;
+    border-bottom: 1px solid #566D7E;
+	border-top: 1px solid #566D7E;
+	border-right: 1px solid #566D7E;
+	border-left: 1px solid #566D7E;
+	border-collapse: collapse;
+	
+        background-color: #DDD3D4;
+}
+
+table.output th {
+    border-right: 1px solid #566D7E;
+    border-top: 1px solid #566D7E;
+	border-collapse: collapse;
+	background-color: #COCOCO; /* 9E504C*/
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+	FONT-SIZE: 8pt;
+	COLOR: #000000;/*FCECCE*/
+	FONT-FAMILY: 'Arial';
+	text-align : center; 
+	height:35px;
+
+}
+table.output td {
+	background :#EFEFEF no-repeat;/* COCOCO */
+        border-top: 1px solid #566D7E;
+        border-right: 1px solid #566D7E;
+        border-bottom: 1px ;
+        border-left : 1px;
+		border-collapse: collapse;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+        FONT-SIZE: 8pt;
+        FONT-FAMILY: 'Arial';
+}
+table.output_table {
+	border : 1px;
+	border-color:#000000;
+        border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+        background-color: #COCOCO ;
+}
+table.output_table th {
+    border-right: 1px solid #566D7E;
+    border-top: 1px solid #566D7E;
+	border-collapse: collapse;
+	background-color: #FFCC99;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+	FONT-SIZE: 8pt;
+	COLOR: black;
+	FONT-FAMILY: 'Arial';
+	text-align : center; 
+
+}
+table.output_table td {
+	background :#EFEFEF no-repeat;
+        border-top: 1px solid #566D7E;
+        border-right: 1px solid #566D7E;
+        border-bottom: 1px ;
+        border-left : 1px;
+		border-collapse: collapse;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+        FONT-SIZE: 8pt;
+        FONT-FAMILY: 'Arial';
+}
+table.banner_table {
+        border-width:;
+	border-top:1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-right: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-color: #000000;
+        border-collapse: separate;
+        background-color: #E18B6B;
+}
+table.banner_table td {
+        border-width: 0px;
+        padding: 1px;
+        border-style: inset;
+        border-color: #000000;
+	border-right: 1px solid #000000;
+        border-top: 1px solid #000000;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+        background-color: gray
+        -moz-border-radius: ;
+        FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	COLOR: white;
+	FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+}
+table.sub_table {
+        
+}
+table.sub_table td {
+        FONT-SIZE: 9pt;
+        FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+}
+
+.body
+{
+    BACKGROUND-COLOR:#DDDDDD;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : small;
+    color : 000000;
+
+}
+.sub_body
+{
+    BACKGROUND-COLOR:#6F9AB5;
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : small;
+    color : #000000;
+
+}
+table.table_atas {
+	border : 1px;
+	border-color:#333333;
+    border-bottom: 1px solid #566D7E;
+	border-top: 1px solid #566D7E;
+	border-right: 1px solid #566D7E;
+	border-left: 1px solid #566D7E;
+	border-collapse: collapse;
+	
+        background-color: #CCFFFF ;
+}
+
+table.table_atas th {
+    border-right: 1px solid #566D7E;
+    border-top: 1px solid #566D7E;
+	border-collapse: collapse;
+	background-color: #99CCCC;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+	FONT-SIZE: 8pt;
+	COLOR: #000000 ;
+	FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+	text-align : center; 
+
+}
+table.table_atas td {
+	background :#COCOCO no-repeat;
+        border-top: 1px solid #566D7E;
+        border-right: 1px solid #566D7E;
+        border-bottom: 1px ;
+        border-left : 1px;
+		border-collapse: collapse;
+	padding-top : 2px;
+	padding-right : 2px;
+	padding-bottom : 2px;
+	padding-left : 2px;
+        FONT-SIZE: 8pt;
+        FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+}
+table.sub_table {
+        
+}
+table.sub_table td {
+        FONT-SIZE: 7pt;
+        FONT-FAMILY: 'Arial, Helvetica, sans-serif';
+		border-width: 0px;
+}
+input.btn{
+input.btn{
+   color:#050;
+   font-family:'trebuchet ms',helvetica,sans-serif;
+   font-size:8pt;
+   font-variant : small-caps;
+   font-weight:bold;
+   background-color:#fed;
+   border:1px solid;
+   border-top-color:#696;
+   border-left-color:#696;
+   border-right-color:#363;
+   border-bottom-color:#363;
+   filter:progid:DXImageTransform.Microsoft.Gradient
+      (GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');}
+	  
+.cssbutton {
+	background: #fff;
+	padding: 1px;
+	font-family: Geneva, Vera, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-variant : small-caps;
+	border : 1px solid #aaa;
+}
+.buttonleft {
+	color: #f8f8f8;
+	background: #a42;
+	padding: 0px 3px 0px 3px;
+}
+.buttonright {
+	color: #f8f8f8;
+	background: #886;
+	padding: 0px 20px 0px 3px;
+}
+.back {
+	color: #818181;
+	font-size: 11px;
+	font-family: Geneva, Vera, Arial, Helvetica, sans-serif;
+}
+.back a {
+	font-size: 11px;
+	font-weight: none;
+	text-decoration: underline;
+	color: #818181;
+	font-family: Geneva, Vera, Arial, Helvetica, sans-serif;
+}
+.back a:hover {
+	font-size: 11px;
+	font-weight: none;
+	text-decoration: none;
+	color: #818181;
+	font-family: Geneva, Vera, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,43 @@
+   /*
+  @media print {
+    BODY { 
+			font-size: 5pt ;
+			margin: 10% 0px 0px 0px;		
+	}
+  }
+ 
+  @media screen {
+    BODY { font-size: 5pt }
+  }
+  
+  @media screen, print {
+    BODY {
+		font-size: 5pt ;
+		margin: 10% 0px 0px 0px;
+	 }
+  }
+  */
+  @media print
+		#mainDivision {  
+			position: relative;
+			height: 9in;
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 0;
+			margin-bottom: 0;
+			z-index: 10;
+		}
+  
+  
+  #mainDivision {
+	width: 8.5in;
+	height: 9in;
+	position: absolute;
+	left: 415px;
+	margin-left: -4.25in;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	top: 8px;
+
+		}

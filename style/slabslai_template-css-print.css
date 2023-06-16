@@ -1,0 +1,309 @@
+BODY {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+TH {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma
+}
+A {
+	COLOR: #3a5ea3; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #4677d3; TEXT-DECORATION: underline
+}
+BODY {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+#whitebackground {
+	BACKGROUND: #fff; MARGIN: 0px auto; WIDTH: 700px
+}
+#container {
+	MARGIN: 0px auto; WIDTH: 700px
+}
+#separator {
+	DISPLAY: none
+}
+#content {
+	PADDING-LEFT: 20px; FONT-SIZE: 11px; FLOAT: left; MARGIN: 0px; WIDTH: 650px
+}
+#maincontent {
+	WIDTH: 872px; TEXT-ALIGN: left
+}
+.breadcrumb {
+	DISPLAY: none
+}
+.navi A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navi A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.navi2 A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navi2 A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.navibottom A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.navibottom A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.latestnews {
+	BACKGROUND: url(/_system/media/images/main_template/news_bg.gif) repeat-x left top
+}
+#header {
+	HEIGHT: 101px
+}
+#menu {
+	WIDTH: 0px
+}
+#logo {
+	DISPLAY: none
+}
+#logoprint {
+	FLOAT: left; MARGIN-LEFT: 14px; WIDTH: 300px
+}
+.navi {
+	FONT-SIZE: 10px; FLOAT: right; WIDTH: 572px; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.navi2 {
+	FONT-SIZE: 10px; FLOAT: left; WIDTH: 382px; COLOR: #fff; PADDING-TOP: 8px; FONT-FAMILY: Tahoma
+}
+.search {
+	FONT-SIZE: 10px; FLOAT: right; WIDTH: 190px; COLOR: #ff0000; PADDING-TOP: 8px; FONT-FAMILY: Tahoma
+}
+.error {
+	FONT-SIZE: 10px; COLOR: #ff0000
+}
+#leftmenu {
+	DISPLAY: none; WIDTH: 0px
+}
+#footer {
+	MARGIN: 0px auto; WIDTH: 900px; HEIGHT: 35px
+}
+.navibottom {
+	PADDING-LEFT: 14px; FONT-SIZE: 10px; FLOAT: left; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.copyright {
+	PADDING-RIGHT: 14px; FONT-SIZE: 10px; FLOAT: right; COLOR: #fff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma
+}
+.textsmall {
+	FONT-SIZE: 10px; COLOR: #333333; LINE-HEIGHT: 14px; FONT-FAMILY: Tahoma
+}
+.textfacilities {
+	FONT-SIZE: 11px; COLOR: #333333; LINE-HEIGHT: 15px; FONT-FAMILY: Tahoma
+}
+.textgallery {
+	FONT-SIZE: 10px; COLOR: #aeaeae; FONT-FAMILY: Arial
+}
+.gallerytitle {
+	FONT-SIZE: 10px; COLOR: #010101; FONT-FAMILY: Arial
+}
+.formstyle {
+	PADDING-LEFT: 2px; FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+.whattodotitle {
+	FONT-SIZE: 11px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+A.umiquesection {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0452d3; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.title {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma
+}
+.bluefaq {
+	FONT-SIZE: 11px; COLOR: #307ddd; FONT-FAMILY: Tahoma
+}
+.bluetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #4167b0; FONT-FAMILY: Tahoma
+}
+.whitetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.whitetext {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.bluetext {
+	FONT-SIZE: 11px; COLOR: #023a95; FONT-FAMILY: Tahoma
+}
+.missiontitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Tahoma
+}
+.imgdescription {
+	FONT-SIZE: 10px; COLOR: #999999; FONT-FAMILY: Tahoma
+}
+A.textsmall {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.textsmall2 {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.textsmall3 {
+	FONT-SIZE: 12px; COLOR: #990000; FONT-FAMILY: Tahoma
+}
+A.textsmall2:hover {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.breadcrumb {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+A.breadcrumb:hover {
+	COLOR: #333333
+}
+visited {
+	COLOR: #333333
+}
+active {
+	COLOR: #333333
+}
+A.titlenews {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #003a9b; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.titlenews:hover {
+	COLOR: #666666
+}
+A.listprog {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.listprog:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A.listprogtitle {
+	FONT-SIZE: 11px; COLOR: #4167b0; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.listprogtitle:hover {
+	COLOR: #4167b0; TEXT-DECORATION: underline
+}
+DIV.noprint {
+	DISPLAY: none
+}
+.leftmenu {
+	WIDTH: 0px
+}
+#maincontentbody {
+	WIDTH: 667px; BACKGROUND-REPEAT: repeat-x
+}
+#maincontentbody #containers {
+	PADDING-BOTTOM: 15px; WIDTH: 627px; PADDING-TOP: 10px
+}
+#maincontentbody #maintextbody {
+	FLOAT: left; WIDTH: 445px
+}
+#maincontentbody #contentcontainer {
+	BORDER-TOP: #7a7a7a 1px solid; FLOAT: left; WIDTH: 627px
+}
+#maincontentbody #contentlinks {
+	BORDER-RIGHT: #868889 1px solid; BORDER-TOP: #b2b7bc 1px solid; FONT-SIZE: 10px; FLOAT: left; BORDER-LEFT: #b2b7bc 1px solid; WIDTH: 624px; BORDER-BOTTOM: #b2b7bc 1px solid; BACKGROUND-COLOR: #dae2ea
+}
+#maincontentbody #contentlinks #activelink {
+	FLOAT: left; HEIGHT: 20px; BACKGROUND-COLOR: #95bee2; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#maincontentbody #contentlinks #activelink A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #2b2891; TEXT-DECORATION: none
+}
+#maincontentbody #contentlinks #activelink A:hover {
+	TEXT-DECORATION: underline
+}
+#maincontentbody #contentlinks #inactivelink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FLOAT: left; COLOR: #6461ae; HEIGHT: 20px; TEXT-ALIGN: center
+}
+#maincontentbody #contentlinks #inactivelink A {
+	COLOR: #2b2891; TEXT-DECORATION: none
+}
+#maincontentbody #contentlinks #inactivelink A:hover {
+	TEXT-DECORATION: underline
+}
+#maincontentbody #contentbody {
+	PADDING-LEFT: 10px; WIDTH: 445px; PADDING-TOP: 10px
+}
+#maincontentbody #rightcontent {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 2px; FLOAT: left; BACKGROUND-IMAGE: url(/_system/media/images/main_template/borders.png); WIDTH: 178px; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 300px
+}
+#rightcontent H4 {
+	DISPLAY: block; PADDING-LEFT: 12px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 5px; COLOR: #4d4d4d; PADDING-TOP: 5px; BACKGROUND-COLOR: #f3f2f2
+}
+#rightcontent UL {
+	FONT-SIZE: 10px; LIST-STYLE-TYPE: square
+}
+#rightcontent LI {
+	MARGIN-LEFT: 0px
+}
+.opencol {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.opencol LI {
+	CLEAR: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none
+}
+.closecol {
+	DISPLAY: none
+}
+#landingbanner {
+	MARGIN-TOP: 3px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 214px
+}
+#landingbanner #tophalf {
+	HEIGHT: 155px
+}
+#landingbanner #bottomhalf {
+	HEIGHT: 50px; BACKGROUND-COLOR: #393939
+}
+#landingp {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 5px; COLOR: #ffffff; LINE-HEIGHT: 13px; PADDING-TOP: 10px
+}
+#landinglinks {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/_system/media/images/main_template/landing_dots.png); HEIGHT: 20px; TEXT-DECORATION: none
+}
+A.landerlinks {
+	FONT-WEIGHT: bold; COLOR: #086e94; TEXT-DECORATION: none
+}
+A.landerlinks:visited {
+	FONT-WEIGHT: bold; COLOR: #086e94; TEXT-DECORATION: none
+}
+A.landerlinks:hover {
+	FONT-WEIGHT: bold; COLOR: #013767; TEXT-DECORATION: none
+}
+#landinglinks A {
+	COLOR: #086e94; TEXT-DECORATION: none
+}
+#landinglinks A:hover {
+	COLOR: #013767
+}
+#facultylinks A {
+	MARGIN-TOP: 12px; DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 8px; COLOR: #000000
+}
+#facultyprogrammes {
+	DISPLAY: block; FONT-SIZE: 11px; PADDING-BOTTOM: 8px
+}
+#facultyprogrammes A {
+	COLOR: #013767; TEXT-DECORATION: none
+}
+#facultyprogrammes A:hover {
+	COLOR: #013767; TEXT-DECORATION: underline
+}
+#facultyprogrammesprogram {
+	DISPLAY: block; FONT-WEIGHT: bold; PADDING-TOP: 10px; TEXT-DECORATION: underline
+}
+#facultyprogrammesfaculties A {
+	DISPLAY: block; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-DECORATION: underline
+}
+#noprint {
+	DISPLAY: none
+}
+#leftmenu {
+	WIDTH: 0px
+}
+A.linkage {
+	FONT-SIZE: 10px; COLOR: #0d4396; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.linkage:visited {
+	FONT-SIZE: 10px; COLOR: #0d4396; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.linkage:hover {
+	FONT-SIZE: 10px; COLOR: #0d4396; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}

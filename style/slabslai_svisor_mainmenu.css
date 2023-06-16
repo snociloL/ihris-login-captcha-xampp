@@ -1,0 +1,105 @@
+#sectionlinks {
+	CLEAR: right; FLOAT: right
+}
+#boxlinks {
+	BORDER-LEFT: #ffffff 1px solid; TOP: 20px; HEIGHT: 28px; BACKGROUND-COLOR: #666666; TEXT-ALIGN: center
+}
+#boxlinks_active {
+	BACKGROUND: url(../supervisor/images/btn_um_web.gif); BORDER-LEFT: #ffffff 1px solid; HEIGHT: 35px; TEXT-ALIGN: center
+}
+#boxlinks A {
+	FONT-WEIGHT: bold; COLOR: #cccccc; TEXT-DECORATION: none
+}
+#boxlinks_active A {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.text {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma
+}
+#mainmenu {
+	CLEAR: left; FLOAT: left; WIDTH: 607px; PADDING-TOP: 10px; BORDER-BOTTOM: #666666 7px solid; FONT-FAMILY: Tahoma; HEIGHT: 18px
+}
+#mainmenu UL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#mainmenu UL LI {
+	FLOAT: left; POSITION: relative
+}
+#mainmenu UL LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+#mainmenu UL LI A:visited {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+#mainmenu UL LI:hover A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#mainmenu UL LI A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: Tahoma; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#mainmenu TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+#mainmenu TABLE TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+#mainmenu TABLE TABLE TABLE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+#mainmenu UL LI UL {
+	DISPLAY: none; Z-INDEX: 2; TOP: 16px
+}
+#mainmenu UL LI:hover UL {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; DISPLAY: block; Z-INDEX: 50; BORDER-LEFT: #dddddd 1px solid; WIDTH: 190px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; POSITION: absolute; BACKGROUND-COLOR: #fefefe
+}
+#mainmenu UL LI A:hover UL {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; DISPLAY: block; Z-INDEX: 50; BORDER-LEFT: #dddddd 1px solid; WIDTH: 190px; PADDING-TOP: 0px; BORDER-BOTTOM: #dddddd 1px solid; POSITION: absolute; BACKGROUND-COLOR: #fefefe
+}
+#mainmenu UL LI UL LI UL {
+	VISIBILITY: hidden
+}
+#mainmenu UL LI:hover UL LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: normal; Z-INDEX: 50; BACKGROUND: #fefefe; PADDING-BOTTOM: 5px; WIDTH: 170px; COLOR: #666666; PADDING-TOP: 5px
+}
+#mainmenu UL LI A:hover UL LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-WEIGHT: normal; Z-INDEX: 50; BACKGROUND: #fefefe; PADDING-BOTTOM: 5px; WIDTH: 170px; COLOR: #666666; PADDING-TOP: 5px
+}
+#mainmenu UL LI:hover UL LI A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: #005dc5; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+#mainmenu UL LI A:hover UL LI A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: #005dc5; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+#mainmenu UL LI UL LI:hover UL {
+	Z-INDEX: 100; LEFT: 100%; VISIBILITY: visible; WIDTH: 190px; TOP: 0px; BACKGROUND-COLOR: #fefefe
+}
+#mainmenu UL LI UL LI A:hover UL {
+	Z-INDEX: 100; LEFT: 100%; VISIBILITY: visible; WIDTH: 190px; TOP: 0px; BACKGROUND-COLOR: #fefefe
+}
+#mainmenu UL LI UL LI UL LI A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; BACKGROUND: #f5f4ef; PADDING-BOTTOM: 5px; WIDTH: 170px; PADDING-TOP: 5px
+}
+#mainmenu UL LI UL LI UL lu A:visited {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; BACKGROUND: #f5f4ef; PADDING-BOTTOM: 5px; WIDTH: 170px; PADDING-TOP: 5px
+}
+#mainmenu UL LI UL LI UL LI A:hover {
+	BACKGROUND: #005dc5; COLOR: #ffffff
+}
+#mainmenu UL LI:hover UL LI UL LI UL {
+	VISIBILITY: hidden
+}
+#mainmenu UL LI A:hover UL LI UL LI UL {
+	VISIBILITY: hidden
+}
+#mainmenu UL LI UL LI:hover UL LI UL {
+	VISIBILITY: hidden
+}
+#mainmenu UL LI UL LI A:hover UL LI UL {
+	VISIBILITY: hidden
+}
+#mainmenu UL LI UL LI UL LI:hover UL {
+	Z-INDEX: 200; LEFT: 100%; VISIBILITY: visible; WIDTH: 190px; TOP: 0px
+}
+#mainmenu UL LI UL LI UL LI A:hover UL {
+	Z-INDEX: 200; LEFT: 100%; VISIBILITY: visible; WIDTH: 190px; TOP: 0px
+}

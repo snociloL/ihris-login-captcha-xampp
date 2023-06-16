@@ -1,0 +1,39 @@
+
+
+/*Stylesheet untuk Font dalam antaramuka*/
+.font_title { font-family:Verdana; font-size: 14px; color: #FFFFFF; font-weight:bold;  }
+.font_sub_title { font-family:Verdana; font-size: 14px; color: #2A4089; font-weight:bold; }
+.font_justification { font-family:Verdana; font-size: 12px; color: #000000; font-weight:bold; }
+.font_justification_highlight { font-family:Verdana; font-size: 12px; color: #FF0000; font-weight:bold; }
+.font_others {font-family: Verdana;	font-size: 12px;color: #000000;}
+
+/*untuk menukar kepada semua huruf besar*/
+.uppercase {text-transform:uppercase;}
+
+/*Stylesheet untuk input data dalam antaramuka*/
+input { font-family: Verdana; font-size: 11px; color:#302083; }
+.input { font-family: Verdana; font-size: 11px; color:#302083; }
+
+/*Stylesheet untuk link dalam antaramuka*/
+a {	font-family: Verdana; text-decoration:none; font-size:11px; }
+a:hover {font-family: Verdana; font-size:11px;  color:#FF9900;}
+
+/*Stylesheet untuk icon dalam antaramuka*/
+.icon_bg:hover { background-color: #E5F0FE;}
+.icon_img { height:80px; width:65px; }
+
+/*Stylesheet untuk sub icon dalam antaramuka*/
+.subicon_bg:hover { background-color: #E5F0FE;}
+.subicon_img { height:65px; width:50px; }
+.ipad_bg { background-image:url(../images/ipad_background); background-repeat:no-repeat }
+.ipad_arrow {background-image:url(../images/ipad_arrow); background-repeat:no-repeat; background-position:center }
+
+/*stylesheet bagi separator */
+.hr { border-style:solid; border-width:0.5px; border-color:#CCCCCC; width:100%;}
+
+/*Untuk tidak memaparkan maklumat*/
+.hidden {display:none;}
+.blur{ opacity:0.4;filter:alpha(opacity=20) }
+
+/*Untuk header subtable*/
+.subtable { background-color:#6699CC; font-family:Verdana; font-size: 12px; color: #ffffff; font-weight:bold; }

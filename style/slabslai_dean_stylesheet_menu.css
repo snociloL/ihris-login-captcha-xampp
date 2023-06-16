@@ -1,0 +1,1339 @@
+ADDRESS,
+BLOCKQUOTE, 
+BODY, DD, DIV, 
+DL, DT, 
+FIELDSET, FORM,
+FRAME, FRAMESET,
+H1, H2, H3, H4, 
+H5, H6, IFRAME, 
+NOFRAMES, 
+OBJECT, OL, P, 
+UL, APPLET, 
+CENTER, DIR, 
+HR, MENU, PRE   { display: block }
+LI              { display: list-item }
+HEAD            { display: none }
+TABLE           { display: table }
+TR              { display: table-row }
+THEAD           { display: table-header-group }
+TBODY           { display: table-row-group }
+TFOOT           { display: table-footer-group }
+COL             { display: table-column }
+COLGROUP        { display: table-column-group }
+TD, TH          { display: table-cell }
+CAPTION         { display: table-caption }
+TH              { font-weight: bolder; text-align: center }
+CAPTION         { text-align: center }
+BODY            { padding: 8px; line-height: 1.5 }
+H1              { font-size: 2em; margin: .67em 0 }
+H2              { font-size: 1.5em; margin: .83em 0 }
+H3              { font-size: 1.17em; margin: 1em 0 }
+H4,
+BLOCKQUOTE, UL,
+FIELDSET, FORM,
+OL, DL, DIR,
+MENU            { margin: 1.33em 0 }
+H5              { font-size: .83em; line-height: 1.17em; margin: 1.67em 0 }
+H6              { font-size: .67em; margin: 2.33em 0 }
+H1, H2, H3, H4,
+H5, H6, B,
+STRONG          { font-weight: bolder }
+BLOCKQUOTE      { margin-left: 40px; margin-right: 40px }
+I, CITE, EM,
+VAR, ADDRESS    { font-style: italic }
+PRE, TT, CODE,
+KBD, SAMP       { font-family: monospace }
+PRE             { white-space: pre }
+BIG             { font-size: 1.17em }
+SMALL, SUB, SUP { font-size: .83em }
+SUB             { vertical-align: sub }
+SUP             { vertical-align: super }
+S, STRIKE, DEL  { text-decoration: line-through }
+HR              { border: 1px inset }
+OL, UL, DIR,
+MENU, DD        { margin-left: 40px }
+OL              { list-style-type: decimal }
+OL UL, UL OL,
+UL UL, OL OL    { margin-top: 0; margin-bottom: 0 }
+U, INS          { text-decoration: underline }
+CENTER          { text-align: center }
+BR:before       { content: "\A" }
+
+/* An example of style for HTML 4.0's ABBR/ACRONYM elements */
+
+ABBR, ACRONYM   { font-variant: small-caps; letter-spacing: 0.1em }
+A[href]         { text-decoration: underline }
+:focus          { outline: thin dotted invert }
+
+
+/* Begin bidirectionality settings (do not change) */
+BDO[DIR="ltr"]  { direction: ltr; unicode-bidi: bidi-override }
+BDO[DIR="rtl"]  { direction: rtl; unicode-bidi: bidi-override }
+
+*[DIR="ltr"]    { direction: ltr; unicode-bidi: embed }
+*[DIR="rtl"]    { direction: rtl; unicode-bidi: embed }
+
+/* Elements that are block-level in HTML4 */
+ADDRESS, BLOCKQUOTE, BODY, DD, DIV, DL, DT, FIELDSET, 
+FORM, FRAME, FRAMESET, H1, H2, H3, H4, H5, H6, IFRAME,
+NOSCRIPT, NOFRAMES, OBJECT, OL, P, UL, APPLET, CENTER, 
+DIR, HR, MENU, PRE, LI, TABLE, TR, THEAD, TBODY, TFOOT, 
+COL, COLGROUP, TD, TH, CAPTION 
+                { unicode-bidi: embed }
+/* End bidi settings */
+
+
+@media print {
+  @page         { margin: 10% }
+  H1, H2, H3,
+  H4, H5, H6    { page-break-after: avoid; page-break-inside: avoid }
+  BLOCKQUOTE, 
+  PRE           { page-break-inside: avoid }
+  UL, OL, DL    { page-break-before: avoid }
+}
+
+@media speech {
+  H1, H2, H3, 
+  H4, H5, H6    { voice-family: paul, male; stress: 20; richness: 90 }
+  H1            { pitch: x-low; pitch-range: 90 }
+  H2            { pitch: x-low; pitch-range: 80 }
+  H3            { pitch: low; pitch-range: 70 }
+  H4            { pitch: medium; pitch-range: 60 }
+  H5            { pitch: medium; pitch-range: 50 }
+  H6            { pitch: medium; pitch-range: 40 }
+  LI, DT, DD    { pitch: medium; richness: 60 }
+  DT            { stress: 80 }
+  PRE, CODE, TT { pitch: medium; pitch-range: 0; stress: 0; richness: 80 }
+  EM            { pitch: medium; pitch-range: 60; stress: 60; richness: 50 }
+  STRONG        { pitch: medium; pitch-range: 60; stress: 90; richness: 90 }
+  DFN           { pitch: high; pitch-range: 60; stress: 60 }
+  S, STRIKE     { richness: 0 }
+  I             { pitch: medium; pitch-range: 60; stress: 60; richness: 50 }
+  B             { pitch: medium; pitch-range: 60; stress: 90; richness: 90 }
+  U             { richness: 0 }
+  A:link        { voice-family: harry, male }
+  A:visited     { voice-family: betty, female }
+  A:active      { voice-family: betty, female; pitch-range: 80; pitch: x-high }
+}
+
+* { 
+  font-family: Arial;
+}
+
+/* body */
+body { 
+  margin: 0px;
+  padding: 0px;
+}
+
+body, td, th, textarea, select, a {
+  font-size: 12px;
+  color: #666666;
+}
+
+input {
+color: #333333;
+font-weight:bold;
+}
+ 
+b, strong, th {
+ color: #666666;
+}
+
+p {
+ margin: 5px 0 }
+
+form {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.png {
+  behavior: url(../dean/style/catalog/javascript/iepngfix.htc);
+}
+  
+a img {
+  border: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* layout */
+h1 { 
+  display: none;
+}
+
+h3 {
+color:#46AED9;
+font-weight:bold;
+margin:5px 0;
+} 
+ 
+ 
+ #headers, #content2, #bars, .content3 {
+	margin: 0px auto;
+	width: 700px;
+}
+
+/* header area */
+#headers_wrap {
+	height: 125px;
+	background: #2b2b2b;
+}
+
+#headers { 
+	height: 100px;
+	padding: 0 0 0 0;
+	position: relative;
+}
+
+#headersimg {
+	position: relative;
+	padding: 30px 0px 0px 40px;
+	height: 60px;
+}
+#headersimg .description{
+	position: absolute;
+	left: 110px;
+	bottom: 3px;
+	color: #c9eefe;
+	font-size: 14px;
+}
+
+/* navigation bar ------------------------------ */
+#bars { 
+	clear: both;
+	font-size: 12px;
+	height: 20px; 
+	color: #FFF;
+	background: #2b2b2b;
+}
+
+#bars ul {
+margin: 0!important;
+padding:0;
+}
+
+
+	#bars li { 
+		margin: 0; 
+		padding: 0px 20px 4px 0px;
+		color: #FFEADC;
+		background: #2b2b2b;
+		float: left;
+		list-style : none; 
+	}
+	
+	#bars li.active { 
+		background: #2b2b2b;
+		color: #51D9FA;
+		font-weight: bold; 
+	}
+	
+	#bars li a { 
+		font-weight: bold;
+		color: #FFF; 
+		background: inherit;
+		text-decoration: none;
+	} 
+	
+	#bars li a:hover { 
+		color: #51D9FA; 
+		background: inherit;
+	}
+ 
+/* content2 area  ------------------------------------------------------------------ */
+
+#content2 {
+	clear: both;
+	font-size: 100%;
+	line-height: 130%;
+	padding-bottom: 10px;
+}
+
+#content2_wrap {
+margin-top: 10px;
+background: #eeeeee;
+border-top:1px solid #D8D6CE;
+}
+
+#content2_right_box  {
+		display:inline;
+		float:right;
+		color: #666666;
+		margin: 5px;
+		padding-left:12px;
+		width: 215px;
+		background:url(/images/vertical-dots.gif) repeat-y;
+	}
+
+#content2_left_box {
+		display:inline;
+		float:left;
+		color: #666666;
+		margin: 5px;
+		width: 215px;
+		
+	}
+
+/* content3 ------------------------------ */
+#content3_wrap {
+    background: #2b2b2b;
+}
+.content3 { 
+	color: #ffffff;
+	clear: both;
+	padding: 5px 0 5px 0px; 
+	line-height: 1.8em;	
+}
+
+.content3 a { color: #ffffff; }
+ 
+#container {
+  width: 700px;
+  position: relative;
+  margin: 0px auto;
+}
+
+#header {
+  height: 100px; 
+  clear: both; 
+}
+
+#header .a {
+  background: url(/images/big_shop2.gif) no-repeat;
+  behavior: url(../dean/style/catalog/javascript/iepngfix.htc); 
+  width: 286px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  top: 10px;
+  clear:both;
+}
+
+#header .b {
+  position: relative;
+  top: 72px;
+  float: right;
+}
+
+#header .b a {
+  background: url(../images/slabslai_dean_tab.png);
+  behavior: url(../dean/style/catalog/javascript/iepngfix.htc);   
+  width: 100px;
+  height: 20px;
+  padding-top: 6px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;
+  display: block;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+#header .b a img {
+  width: 14px;
+  height: 8px;
+}
+
+#column {
+  width: 215px;
+  padding: 5px 0px 5px 5px; 
+  float: right;
+}
+
+#content {
+  padding: 5px 8px 10px 0px; 
+  float: left;
+  padding-right: 15px;
+  border-right: 1px dotted #EEEEEE;
+  width: 460px;
+}
+
+#content a {
+  color: #FF6600;
+  text-decoration:none;
+}
+
+#content a:hover {
+  color: #FF6600;
+  text-decoration:underline;
+}
+
+#footer { 
+  clear: both;  
+  border-top: 3px solid #EEEEEE;
+  padding-top: 3px;
+  margin-bottom: 1px;
+}
+
+#footer .a {
+  float: left;
+  margin-top: 2px;
+}
+
+#footer .b {
+  float: right;
+  text-align: right;
+}
+#footer .b a {
+  color: #336699;
+}
+  
+#time {
+  color: #EEEEEE;
+  text-align: center;
+  clear: both;
+}
+
+.heading {
+  font: bold 15px Arial;
+  text-transform: uppercase;
+  color: #46AED9;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted #cccccc;
+  clear: both;
+  margin: 10px 0px 2px 0px;
+  height: 16px;
+  letter-spacing:-1px;
+}
+
+.headingText{
+  font: bold 15px Arial;
+  text-transform: uppercase;
+  color: #46AED9;
+  clear: both;
+  height: 16px;
+}
+
+.heading .left {
+  float: left;
+  text-align: left;
+}
+ 
+.heading .right {
+  float: right;
+  text-align: right;
+}
+
+.error {
+  color: #FF0000;
+}
+
+.required {
+  margin: 0;
+  color: #FF0000;
+  display: inline;
+}
+
+.warning {
+  color: #000000;
+  font-size: 10px;  
+  background-color: #FFCECE;
+  padding: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: #000000;
+  font-size: 10px;
+  background-color: #99FF00;
+  padding: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  color: #999999;
+  margin: 10px 0px 10px 0px;
+}
+
+.breadcrumb a {
+  color: #003399;
+}
+ 
+#bar {
+  background-color: #EEEEEE;
+  border-top: 1px solid #CCCCCC; 
+  border-bottom: 1px solid #CCCCCC;
+  padding: 3px 3px 2px 10px;
+  margin-bottom:5px;
+  height: 24px;
+}
+
+.products, .images, .categories {
+  float: left;
+  width: 50%; 
+  text-align: center; 
+  cursor: pointer;
+  font-size: 12px; 
+  margin-bottom: 10px; 
+}
+
+.products a, .images a, .categories a {
+  font-size: 12px;
+}
+
+.products img, .images img, .categories img {
+  border: 1px solid #cccccc;
+  padding:6px;
+  margin: 3px;
+  background:#eeeeee;
+}
+
+.products a:hover img, .images a:hover img, .categories a:hover img {
+  border: 1px solid #46AED9;
+  padding:6px;
+  margin: 3px;
+  background:#46AED9;
+}
+
+
+.results {
+  clear: both;
+  height: 19px;
+}
+
+.results .left {
+  float: left;
+  padding-top: 2px;
+}
+
+.results .right {
+  float: right;
+}
+
+.buttons {
+  border: 1px solid #EEEEEE;
+  clear: both;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  height: 20px;
+}
+
+.buttons input {
+  height: 20px;
+}
+
+.buttons .left {
+  float: left;
+}
+
+.buttons .right {
+  float: right;
+}
+
+.buttons .center {
+  position: relative;
+  left: 52%;
+  margin-left: -26%;
+  float: left;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+/* box language */
+.language {
+  float: left;
+  margin-top: 3px;
+}
+
+.language div {
+  display: inline;
+}
+
+/* box currency */
+.currency {
+  float: left;
+  margin-left: 20px;
+  margin-top: 1px;  
+}
+
+.currency div {
+  display: inline;
+}
+
+/* box search */
+.search {
+  float: right;
+}
+
+.search div {
+  display: inline;
+}
+
+/* box cart */
+.box .cart {
+background:#EEEEEE none repeat scroll 0% 50%;
+border:1px solid #CCCCCC;
+padding:6px;
+line-height:1em;
+
+}
+
+.box .cart .a {
+  text-align: right;
+  border-top: 1px dotted #CCCCCC;
+  margin-top: 5px;
+  color:#46AED9;
+  font-weight:bold;
+}
+
+.box .cart .b {
+  text-align: center;
+}
+
+/* box category2 */
+.box .category2 {
+  padding-top: 0px;
+}
+
+.box .category2 a {
+  background: url(../dean/style/images/breadcrumb.gif) no-repeat scroll 0% !important;
+  display: block;
+  text-decoration: none;
+  border-bottom:1px dotted #cccccc;
+  line-height:20px;
+  padding-left: 20px !important;
+  font-size:11px;  
+}
+
+/* box category1 */
+.box .category1 {
+  padding-top: 0px;
+}
+
+.box .category1 a {
+  background: url(../images/slabslai_dean_note.png) no-repeat scroll 0% !important;
+  display: block;
+  text-decoration: none;
+  border-bottom:1px dotted #cccccc;
+  line-height:20px;
+  padding-left: 20px !important;
+  font-size:11px;  
+}
+
+/* box category */
+.box .category {
+  padding-top: 0px;
+}
+
+.box .category a {
+  background: url(../images/slabslai_dean_panel_folder.png) no-repeat scroll 0% !important;
+  display: block;
+  text-decoration: none;
+  border-bottom:1px dotted #cccccc;
+  line-height:20px;
+  padding-left: 20px !important;
+  font-size:11px;  
+  
+}
+
+
+.box .categoryxx a {
+  background: url(../dean/style/images/rhs_arrow.gif) no-repeat scroll 0% !important;
+  display: block;
+  text-decoration: none;
+  border-bottom:1px dotted #cccccc;
+  line-height:20px;
+  padding-left: 20px !important;
+  font-size:11px;  
+  
+}
+
+/* box information */
+.box .information a {
+  background: url(../dean/style/images/tag.gif) no-repeat scroll 0% !important;
+  display: block;
+  text-decoration: none;
+  border-bottom:1px dotted #cccccc;
+  line-height:20px;
+  padding-left: 20px !important;
+  font-size:11px; 
+}
+
+
+
+
+/* box review */
+.box .review .a {
+  text-align: center;
+}
+
+.box .review .a img {
+  clear: both;
+}
+
+.box .review .a a {
+  text-decoration: none;
+}
+
+.box .review .b {
+  margin-top: 2px;
+}
+
+.box .review .c {
+  text-align: right;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.box .review .d .e {
+  float: left;
+  text-decoration: none;
+  position: relative;
+  left: 5px;
+  padding: 3px;
+}
+
+.box .review .d .e img {
+  padding-right: 8px;
+}
+
+.box .review .d .f {
+  position: relative;
+  top: 10px;
+  text-decoration: none;  
+}
+
+.box .review .a .g {
+  color: #0066CC;
+  text-decoration: underline; 
+}
+
+.box img {
+ background: #eeeeee;
+ padding:6px;
+ border: 1px solid #cccccc;
+ }
+
+.box a:hover img {
+ background: #46AED9;
+ padding:6px;
+ border: 1px solid #46AED9;
+ }
+
+
+/* product */
+
+#product img, #product img a {
+background: #eeeeee;
+padding:6px;
+border: 1px solid #CCCCCC;
+}
+
+#product ul, #content ul {
+padding: 0px 5px 5px 5px;
+margin: 0px;
+}
+
+#product ul li, #content ul li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+background: url(/images/mini-category.gif) no-repeat scroll 0% !important;
+padding-left: 20px !important;
+}
+
+#product .a {
+  float: right;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#product .b {
+  margin-bottom: 20px;
+}
+
+/* contact */
+#contact {
+  margin-top: 10px; 
+}
+
+#contact .a {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  _height: 50px;
+  min-height: 50px; 
+}
+
+#contact > .a  {
+  overflow: auto;
+}
+
+#contact .b {
+  float: left;
+  width: 45%;
+}
+
+#contact .c {
+  float: right;
+  width: 45%;
+}
+
+#contact .c a {
+  color: #000000;
+}
+
+#contact .d {
+  margin-top: 10px;
+  border: 1px solid #EEEEEE;
+  padding: 5px; 
+  clear: both; 
+}
+
+#contact .d table {
+  width: 100%;
+}
+
+#contact .d table textarea {
+  width: 99%; 
+  height: 150px;
+  overflow: auto;
+}
+
+/* search */
+#search .a {
+  font-weight: bold;
+   color: #000000;
+  margin-bottom: 2px;
+}
+
+#search .b {
+  margin-bottom: 10px;
+}
+
+#search .b .c {
+  border: 1px solid #EEEEEE; 
+  padding: 5px;
+}
+
+#search .b .d {
+  margin-top: 10px;
+  text-align: right;
+  padding: 5px;
+}
+
+/* login */
+#login .a, #login .g {
+  width: 225px;
+}
+
+#login .a {
+  float: left;
+}
+
+#login .g {
+  float: right;
+}
+
+#login .b, #login .h {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+#login .c, #login .i {
+  border: 1px solid #EEEEEE;
+  padding: 8px;
+  height: 160px;
+}
+
+#login .d, #login .j {
+  margin-top: 12px;
+  _margin-top: 20px;
+}
+
+#login .e, #login .k {
+  margin-top: 20px;
+  _margin-top: 20px;
+}
+
+#login .f, #login .l {
+  margin-top: 12px;
+  _margin-top: 20px;
+  text-align: right;
+}
+
+/* account create */
+#create .b, #create .d, #create .f {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#create .a, #create .c, #create .e {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#create table {
+  width: 100%;
+}
+
+/* account */
+#account .b, #account .d {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#account .a, #account .c {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+  display: block;
+}
+
+#account a {
+  text-decoration: none;
+}
+
+#account a:hover {
+  text-decoration: underline;
+}
+/* account edit */
+#edit .b {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#edit .a {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#edit table {
+  width: 100%;
+}
+
+/* account edit */
+#password .b {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#password .a {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#password table {
+  width: 100%;
+}
+
+/* account address */
+#address .c, #address .f {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#address .b, #address .e {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* checkout shipping */
+#shipping .b, #shipping .d, #shipping .f {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#shipping .a, #shipping .c, #shipping .e {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#shipping .d table {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#shipping .d table tr {
+  cursor: pointer;
+}
+
+#shipping .g {
+  padding-left: 20px;
+}
+
+#shipping .i {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#shipping label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;  
+}
+  
+/* checkout payment */
+#payment .b, #payment .d, #payment .f {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#payment .a, #payment .c, #payment .e {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#payment .d table {
+  width: 100%;
+  margin-top: 5px;  
+}
+
+#payment .d table tr {
+  cursor: pointer;
+}
+
+#payment .g {
+  padding-left: 20px;
+}
+
+#payment label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* checkout address */
+#checkout_address .a, #checkout_address .c {
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#checkout_address .b, #checkout_address .d {
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#checkout_address .b table td  {
+  vertical-align: top;
+}
+
+#checkout_address .e {
+  padding-left: 10px;
+  cursor: pointer;  
+}
+
+#checkout_address .f {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#checkout_address label {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* cart */
+#cart .a {
+  width: 100%;
+  clear: both;
+}
+
+#cart .b, #cart .h, #cart .c, #cart .i {
+  text-align: center;
+}
+
+#cart .d, #cart .j, #cart .e, #cart .k, #cart .f, #cart .l {
+  text-align: left;
+  vertical-align: top;  
+}
+
+#cart .j span {
+  color: #FF0000;
+}
+
+#cart .g, #cart .m {
+  text-align: right;
+  vertical-align: top;
+}
+
+#cart .n {
+  float: right;
+  text-align: right;
+  clear: both;
+}
+
+#cart .n table {
+  display: inline;
+}
+
+#cart .o {
+  color: #FF0000;
+  clear: both;
+  font-size: 9px;
+  text-align: center;
+}
+
+/* review */
+#review {
+  padding-top: 10px;
+}
+
+#review .a {
+  clear: both;
+}
+
+#review .b {
+  float: left;
+  margin-bottom: 5px;  
+}
+
+#review .b a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000000;
+}
+
+#review .c {
+  float: right;
+  text-align: right;
+  margin-bottom: 5px;   
+}
+
+#review table {
+  border: 1px solid #EEEEEE;
+  width: 100%;
+  margin-bottom: 10px;  
+  clear: both;
+}
+
+.review table td {
+  vertical-align: top;
+}
+
+/* review info */
+#review_info .a {
+  float: right;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+} 
+
+/* review write */
+#review_write .a {
+  float: right;
+  margin: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+#review_write .e span {
+  color: #FF0000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#review_write .d {
+  margin-bottom: 10px;
+}
+
+#review_write .d span {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+/* checkout */
+#checkout .a, #checkout .h {
+  border: 1px solid #EEEEEE;
+  margin: 10px 0px 10px 0px;
+  clear: both;
+  _height: 10px;
+  padding: 5px;
+}
+
+#checkout .m {
+  border: 1px solid #EEEEEE;
+  margin-bottom: 10px;
+  _height: 10px;
+  padding: 5px;
+}
+
+#checkout .l {
+  padding-bottom: 2px;
+}
+
+#checkout > .a, #checkout > .h, #checkout > .m {
+  overflow: auto;
+}
+
+#checkout .c, #checkout .j {
+  width: 415px;
+  float: right;
+}
+
+#checkout .c table {
+  width: 100%;
+}
+
+#checkout .b, #checkout .i {
+  width: 140px;
+  float: left;
+  padding-left: 3px;
+}
+
+#checkout .f, #checkout .d, #checkout .e, #checkout .g {
+  vertical-align: top;
+}
+
+#checkout .f, #checkout .g {
+  text-align: right;
+}
+
+#checkout .h .j table {
+  float: right;
+  text-align: right;
+}
+
+/* success */
+#success {
+  background: url(../images/slabslai_dean_success.png) no-repeat;
+  padding-left: 148px;
+  _height: 128px;
+  min-height: 128px;
+}
+
+/* failure */
+#failure {
+  background: url(../images/slabslai_dean_failure.png) no-repeat;
+  padding-left: 148px;
+  _height: 128px;
+  min-height: 128px;  
+}
+
+/* history */
+#history {
+  margin-top: 10px;
+}
+
+#history .a {
+  padding-bottom: 3px;
+}
+
+#history .b {
+  float: left;
+  text-align: left;
+  padding-bottom: 3px;
+}
+
+#history .c {
+  float: right;
+  text-align: right;
+  padding-bottom: 3px;  
+}
+
+#history .d {
+  clear: both;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 10px;
+}
+
+#history table {
+  width: 100%;
+}
+
+/* invoice */
+#invoice .a, #invoice .h {
+  border: 1px solid #EEEEEE;
+  margin: 10px 0px 10px 0px;
+  clear: both;
+  _height: 10px;
+  padding: 5px;
+}
+
+#invoice .m {
+  border: 1px solid #EEEEEE;
+  margin-bottom: 10px;
+  _height: 10px;
+  padding: 5px;
+}
+
+#invoice .l {
+  padding-bottom: 2px;
+}
+
+#invoice > .a, #invoice > .h, #invoice > .m {
+  overflow: auto;
+}
+
+#invoice .c, #invoice .j {
+  width: 415px;
+  float: right;
+}
+
+#invoice .c table {
+  width: 100%;
+}
+
+#invoice .b, #invoice .i {
+  width: 140px;
+  float: left;
+  padding-left: 3px;
+}
+
+#invoice .f, #invoice .d, #invoice .e, #invoice .g {
+  vertical-align: top;
+}
+
+#invoice .f, #invoice .g {
+  text-align: right;
+}
+
+#invoice .h .j table {
+  float: right;
+  text-align: right;
+}
+
+/* sitemap */
+#sitemap a {
+  text-decoration: none; 
+}
+
+#sitemap .a {
+  float: left;
+  width: 45%;
+}
+
+#sitemap .b {
+  float: right;
+  width: 45%;
+}
+
+#error {
+  clear: both;
+  border: 1px solid #EEEEEE;
+  margin: 0px 0px 10px 0px;
+  padding: 8px;
+  margin-top: 10px;
+}
