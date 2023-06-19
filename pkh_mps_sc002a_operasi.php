@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include("include/conn_oracle.php"); 
 //include("include/hris_users.php"); 
 
@@ -26,7 +26,28 @@ if($flag==1)
 	$password = isset($_GET['password'])?$_GET['password']:'password';
 	if ($password == 'password') {$password = isset($_POST['password'])?$_POST['password']:'';}
 
-	echo LoginPassword($userid,$password);	
+	$captcha = isset($_GET['captcha'])?$_GET['captcha']:'captcha';
+	if ( $captcha == 'captcha' ){
+		$captcha = isset($_POST['captcha'])?$_POST['captcha']:'';
+		// Validation: Checking entered captcha code with the generated captcha code
+		if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
+		// Note: the captcha code is compared case insensitively.
+		// if you want case sensitive match, check above with strcmp()
+		$status = "<p style='color:#FFFFFF; font-size:20px'>
+		<span style='background-color:#FF0000;'>Entered captcha code does not match! 
+		Kindly try again.</span></p>";
+		var_dump($_SESSION['captcha']);
+		var_dump($_POST['captcha']);
+		}else{
+		$status = "<p style='color:#FFFFFF; font-size:20px'>
+		<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
+		</p>";	
+		echo LoginPassword($userid,$password);
+			}
+		}
+		echo($status);
+		
+		
 }
 
 if($flag==2)
