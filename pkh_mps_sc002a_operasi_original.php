@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include("include/conn_oracle.php"); 
 //include("include/hris_users.php"); 
 
@@ -26,90 +26,17 @@ if($flag==1)
 	$password = isset($_GET['password'])?$_GET['password']:'password';
 	if ($password == 'password') {$password = isset($_POST['password'])?$_POST['password']:'';}
 
-	$captcha = isset($_GET['captcha'])?$_GET['captcha']:'captcha';
-	if ( $captcha == 'captcha' ){
-		$captcha = isset($_POST['captcha'])?$_POST['captcha']:'';
-		// Validation: Checking entered captcha code with the generated captcha code
-		if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
-		// Note: the captcha code is compared case insensitively.
-		// if you want case sensitive match, check above with strcmp()
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#FF0000;'>Entered captcha code does not match! 
-		Kindly try again.</span></p>";
-		
-		echo '<script language="javascript" type="text/javascript">
-		alert ("Kod Captcha yang dimasukkan tidak sama!\n\nEntered captcha code does not match! ");
-		window.location.href ="pkh_mps_sc001a_login.php";
-		</script>';	
-		
-		}else{
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
-		</p>";	
-		echo($status);
-		echo LoginPassword($userid,$password);
-			}
-		}
-		
-		
+	echo LoginPassword($userid,$password);	
 }
 
 if($flag==2)
 {
-	$captcha = isset($_GET['captcha'])?$_GET['captcha']:'captcha';
-	if ( $captcha == 'captcha' ){
-		$captcha = isset($_POST['captcha'])?$_POST['captcha']:'';
-		// Validation: Checking entered captcha code with the generated captcha code
-		if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
-		// Note: the captcha code is compared case insensitively.
-		// if you want case sensitive match, check above with strcmp()
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#FF0000;'>Entered captcha code does not match! 
-		Kindly try again.</span></p>";
-		
-		echo '<script language="javascript" type="text/javascript">
-		alert ("Kod Captcha yang dimasukkan tidak sama!\n\nEntered captcha code does not match! ");
-		window.location.href ="pkh_mps_sc003a_katalaluan_captcha1.php?flag=1";
-		</script>';	
-				
-		}else{
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
-		</p>";	
-		echo($status);
-		echo TerlupaKatalaluan($conn_oracle_status);	
-			}
-		}
-	
+	echo TerlupaKatalaluan($conn_oracle_status);	
 }
 
 if($flag==3)
 {
-	$captcha = isset($_GET['captcha'])?$_GET['captcha']:'captcha';
-	if ( $captcha == 'captcha' ){
-		$captcha = isset($_POST['captcha'])?$_POST['captcha']:'';
-		// Validation: Checking entered captcha code with the generated captcha code
-		if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
-		// Note: the captcha code is compared case insensitively.
-		// if you want case sensitive match, check above with strcmp()
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#FF0000;'>Entered captcha code does not match! 
-		Kindly try again.</span></p>";
-		
-		echo '<script language="javascript" type="text/javascript">
-		alert ("Kod Captcha yang dimasukkan tidak sama!\n\nEntered captcha code does not match! ");
-		window.location.href ="pkh_mps_sc003a_katalaluan_captcha1.php?flag=2";
-		</script>';	
-				
-		}else{
-		$status = "<p style='color:#FFFFFF; font-size:20px'>
-		<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
-		</p>";	
-		echo($status);
-		echo DaftarKataLaluan();
-			}
-		}
-		
+	echo DaftarKataLaluan();	
 }
 
 //>>>>>>>>>>>>>>flag 1 >>>>>>>>>>>>>>>>>>>>

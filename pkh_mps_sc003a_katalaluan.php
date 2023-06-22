@@ -1,20 +1,5 @@
 <?php
 session_start();
-$status = '';
-if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
-// Validation: Checking entered captcha code with the generated captcha code
-if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
-// Note: the captcha code is compared case insensitively.
-// if you want case sensitive match, check above with strcmp()
-$status = "<p style='color:#FFFFFF; font-size:20px'>
-<span style='background-color:#FF0000;'>Entered captcha code does not match! 
-Kindly try again.</span></p>";
-}else{
-$status = "<p style='color:#FFFFFF; font-size:20px'>
-<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
-</p>";	
-	}
-}
 ?>
 
 <!DOCTYPE html>
@@ -45,7 +30,7 @@ $status = "<p style='color:#FFFFFF; font-size:20px'>
 <body onLoad="top.scrollTo(0,0)">
 
 <?php
-														$conn_oracle_status = 'test';
+
 if($conn_oracle_status == 'test')
 		{
 			error_reporting(E_ALL);
@@ -152,19 +137,19 @@ echo PaparanIndex();
 		$str.= ' </div>';
 		$str.= ' </div>';
 
-								$str.='<?php echo $status; ?>';
-								$str.='<form name="validation" method="post" action="">';
-								$str.='<label><strong>Enter Captcha:</strong></label><br />';
-								$str.='<input type="text" name="captcha" />';
-								$str.='<p><br />';
-								$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
-								$str.='</p>';
-								$str.='<p>Can`t read the image? ';
-								$str.='<a href="javascript: refreshCaptcha();">click here</a>';
-								$str.=' to refresh</p>';
-								$str.='<input type="submit" name="submit" value="Submit">';
-								$str.='</form>';
-								$str.='<br>';
+		$str.='<?php echo $status; ?>';
+		$str.='<form name="validation" method="post" action="">';
+		$str.='<label><strong>Enter Captcha:</strong></label><br />';
+		$str.='<input type="text" name="captcha" required />';
+		$str.='<p><br />';
+		$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
+		$str.='</p>';
+		$str.='<p>Can`t read the image? ';
+		$str.='<a href="javascript: refreshCaptcha();">click here</a>';
+		$str.=' to refresh</p>';
+		$str.='<input type="submit" name="submit" value="Submit">';
+		$str.='</form>';
+		$str.='<br>';
 
 		$str.= ' <br><br>';
 		$str.= ' <div class="form-group">';
@@ -232,19 +217,19 @@ echo PaparanIndex();
 		$str.= ' </div>';
 		$str.= ' </div>';
 
-								$str.='<?php echo $status; ?>';
-								$str.='<form name="validation" method="post" action="">';
-								$str.='<label><strong>Enter Captcha:</strong></label><br />';
-								$str.='<input type="text" name="captcha" />';
-								$str.='<p><br />';
-								$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
-								$str.='</p>';
-								$str.='<p>Can`t read the image? ';
-								$str.='<a href="javascript: refreshCaptcha();">click here</a>';
-								$str.=' to refresh</p>';
-								$str.='<input type="submit" name="submit" value="Submit">';
-								$str.='</form>';
-								$str.='<br>';
+		$str.='<?php echo $status; ?>';
+		$str.='<form name="validation" method="post" action="">';
+		$str.='<label><strong>Enter Captcha:</strong></label><br />';
+		$str.='<input type="text" name="captcha" required/>';
+		$str.='<p><br />';
+		$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
+		$str.='</p>';
+		$str.='<p>Can`t read the image? ';
+		$str.='<a href="javascript: refreshCaptcha();">click here</a>';
+		$str.=' to refresh</p>';
+		$str.='<input type="submit" name="submit" value="Submit">';
+		$str.='</form>';
+		$str.='<br>';
 		
 		
 		$str.= ' <br><br>';

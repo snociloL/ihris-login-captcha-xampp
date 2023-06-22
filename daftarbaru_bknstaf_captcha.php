@@ -19,6 +19,15 @@
 	}
 	//-->
 	</script>
+	<script>
+    //Refresh Captcha
+    function refreshCaptcha(){
+        var img = document.images['captcha_image'];
+        img.src = img.src.substring(
+            0,img.src.lastIndexOf("?")
+            )+"?rand="+Math.random()*1000;
+    }
+    </script>
 	<META content="MSHTML 6.00.6000.16705" name=GENERATOR>
 	</HEAD>
 	<BODY><BR>
@@ -162,7 +171,7 @@
 	<tbody>
 	<tr>
 	<td class="text_about" height="100%" align="center" width="598" valign="top" style="padding: 0pt 15px;">
-	<form onSubmit="return Validator(this)" action="daftarbaru_insert.php" method="post" name="frmRegister">
+	<form onSubmit="return Validator(this)" action="daftarbaru_insert_captcha.php" method="post" name="frmRegister">
 	<table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr> 
 	<td colspan="3"><font color="#000099" size="4" face="Cambria"><strong>Pendaftaran 
@@ -449,7 +458,6 @@
 	<td><input class="TEXT" name="password" type="password" id="password" maxlength="15" size="15" required></td>
 	</tr>
 
-
 <?php
 }
 else
@@ -487,7 +495,20 @@ else
 	<td></td>
 	<td></td>
 	</tr>
-	<tr> 
+	
+	<tr>
+	<td>Enter Captcha</td>
+	<td>:</td>
+	<br />
+	<td><p><br />
+	<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">
+	<br>
+	<input type="text" name="captcha" required/>
+	</p></td></tr>
+	<tr><td colspan="2"></td><td><br><p>Can`t read the image? <a href="javascript: refreshCaptcha();"> click here</a> to refresh</p><br></td></tr>
+
+	
+	<tr> 	
 	<td colspan="3" align="center"> 
 	<input id="button" class="btn" type="submit" name="btn_simpan"  onClick="return CheckUserRegister()"  
 	value="Daftar" title=" Daftar "/>

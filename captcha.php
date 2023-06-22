@@ -10,7 +10,7 @@ $total_characters_on_image = 6;
 //The characters that can be used in the CAPTCHA code.
 //avoid all confusing characters and numbers (For example: l, 1 and i)
 $possible_captcha_letters = 'bcdfghjkmnpqrstvwxyz23456789';
-$captcha_font = 'C:\laragon\www\ihris-login-captcha\first captcha\monofont.ttf';
+$captcha_font = '../style/monofont.ttf';
 
 $random_captcha_dots = 50;
 $random_captcha_lines = 25;

@@ -1,5 +1,20 @@
 <?php
 session_start();
+$status = '';
+if ( isset($_POST['captcha']) && ($_POST['captcha']!="") ){
+// Validation: Checking entered captcha code with the generated captcha code
+if(strcmp($_SESSION['captcha'], $_POST['captcha']) != 0){
+// Note: the captcha code is compared case insensitively.
+// if you want case sensitive match, check above with strcmp()
+$status = "<p style='color:#FFFFFF; font-size:20px'>
+<span style='background-color:#FF0000;'>Entered captcha code does not match! 
+Kindly try again.</span></p>";
+}else{
+$status = "<p style='color:#FFFFFF; font-size:20px'>
+<span style='background-color:#46ab4a;'>Your captcha code is match.</span>
+</p>";	
+	}
+}
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +45,7 @@ session_start();
 <body onLoad="top.scrollTo(0,0)">
 
 <?php
+											$conn_oracle_status = 'test';
 
 if($conn_oracle_status == 'test')
 		{
@@ -98,7 +114,8 @@ echo PaparanIndex();
 	function  SenaraiItem()
 		{
 		global $c;	
-
+															$userid = 0;
+															$password = 'password';
 		$str= '';
 		
 		$str.= '<form name="loginForm" action="pkh_mps_sc002a_operasi.php?flag=1" method=post onsubmit="return validateForm()" class="form-horizontal"';
@@ -137,24 +154,27 @@ echo PaparanIndex();
 		$str.= '</div>';
 		$str.= '</div>';
 		$str.= '</div>';*/
-		
-		$str.='<div class="form-group">';
-		$str.='<?php echo $status; ?>';
-		$str.='<div class="col-sm-offset-3 col-sm-6">';
-		$str.='<label><strong>Enter Captcha:</strong></label><br />';
-		$str.='<p><br />';
-		$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
-		$str.='<br>';
-		$str.='<input type="text" name="captcha" required/>';
-		$str.='</p>';
-		$str.='<p>Can`t read the image? ';
-		$str.='<a href="javascript: refreshCaptcha();">click here</a>';
-		$str.=' to refresh</p>';
-		$str.='</div>';
-		$str.= '</div>';						
+								$str.='<div class="col-sm-offset-3 col-sm-6">';
+								$str.='<?php echo $status; ?>';
+								$str.='<div class="form-group">';
+								$str.='<label><strong>Enter Captcha:</strong></label><br />';
+								$str.='<p><br />';
+								$str.='<img src="captcha.php?rand=<?php echo rand(); ?>" id="captcha_image">';
+								$str.='<br>';
+								$str.='<input type="text" name="captcha" required/>';
+								$str.='</p>';
+								$str.='<p>Can`t read the image? ';
+								$str.='<a href="javascript: refreshCaptcha();">click here</a>';
+								$str.=' to refresh</p>';
+								$str.='</div>';
+								$str.= '</div>';
+								
 		
 		$str.= '<div class="form-group">';
+
+		$str.= '<?php include "login.php"?>';
 		// $str.='<center><button name="login" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span> login</button></center>';
+
 
 		$str.= '<div class="col-sm-offset-3 col-sm-6">';
 		$str.= '<button  style="font-size:11px" type="submit" name="loginbutton" id="loginbutton" class="btn btn-primary">Login</button>&nbsp;&nbsp;';
